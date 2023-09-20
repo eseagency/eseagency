@@ -1,0 +1,141 @@
+::selection {
+  background: inherit;
+  color: inherit;
+}
+::-moz-selection {
+  background: inherit;
+  color: inherit;
+}
+
+@media screen and (max-width: 767px) {
+	.cb-horizontal-screen .fy__video__embed {
+		width: 100%;
+    height: 500%;
+    top: -200%;
+    bottom: -200%;
+    left: 0%;
+    right: 0%;
+	}
+}
+
+body.dragging .swiper-slide-active .fy__ui {
+	opacity: 0.3;
+}
+body.dragging .fy__progress__bar {
+	opacity: 0;
+}
+
+.fy__ui {
+	-webkit-transform: translate3d(0, 0, 0.01px);
+	-moz-transform: translate3d(0, 0, 0.01px);
+	-ms-transform: translate3d(0, 0, 0.01px);
+	-o-transform: translate3d(0, 0, 0.01px);
+	transform: translate3d(0, 0, 0.01px); 
+	transform-style: preserve-3d;
+}
+
+.fy__video__embed iframe {
+	width:100%;
+	height:100%;
+}
+
+.fy__ui,
+.fy__controls {
+	pointer-events: none;
+}
+.fy__sidebar > *,
+.fy__copy > *,
+.fy__topbar > *,
+.fy__progress__bar,
+.fy__controls__button {
+	pointer-events: auto;
+}
+
+
+@media (hover: hover) {
+	.fy__controls__button:not(.swiper-button-disabled):hover {
+		width: 64px;
+		height: 64px;
+		margin: -2px;
+		background-color: #363636;
+	}
+	.fy__controls__button:not(.swiper-button-disabled):active {
+		width: 60px;
+		height: 60px;
+		margin: 0px;
+	}
+
+}
+
+.fy__controls__button.swiper-button-disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+
+
+.player-paused .fy__pause {
+	opacity: 1;
+}
+
+.player-paused .fy__progress__bar {
+	opacity: 1;
+	height: 4px;
+}
+
+.player-paused .fy__progress__circle {
+	width: 8px;
+	height: 8px;
+	right: -4px;
+}
+
+
+
+.time-dragging .fy__progress__bar {
+	opacity: 1;
+	height: 12px;
+}
+.time-dragging .fy__progress__progress {
+	background-color: rgb(255 255 255 / 50%);
+}
+
+.time-dragging .fy__progress__circle {
+	width: 10px;
+	height: auto;
+	right: -5px;
+}
+
+@media (hover: hover) {
+	.fy__progress__bar:hover {
+		opacity: 1;
+		height: 12px;
+	}
+	.fy__progress__bar:hover .fy__progress__progress {
+		background-color: rgb(255 255 255 / 50%);
+	}
+
+	.fy__progress__bar:hover .fy__progress__circle {
+		width: 10px;
+		height: auto;
+		right: -5px;
+	}
+}
+
+
+
+.fy__progress__progress {
+	width: var(--player-progress);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
