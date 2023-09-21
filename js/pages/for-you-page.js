@@ -11,6 +11,8 @@ var globalActiveIndex = 0
 
 let vimeoPlayers = {};
 
+console.log("test")
+
 
 function updateGlobalIndex(i) {
     $(`.fy__collection-item[real-index]`).removeClass("video-slide-active")
