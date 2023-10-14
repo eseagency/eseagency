@@ -1,0 +1,122 @@
+/*-----------------------------------------------------------*/
+/* Layout: Wrappers                                          */
+/*-----------------------------------------------------------*/
+
+.top-10 {
+  padding-top: 10px;
+}
+.top-15 {
+  padding-top: 15px;
+}
+.top-20 {
+  padding-top: 20px;
+}
+.top-30 {
+  padding-top: 30px;
+}
+.top-40 {
+  padding-top: 40px;
+}
+.top-40 {
+  padding-top: 40px;
+}
+.top-60 {
+  padding-top: 60px;
+}
+.top-80 {
+  padding-top: 80px;
+}
+.top-150 {
+  padding-top: 150px;
+}
+.top-160 {
+  padding-top: 160px;
+}
+.top-180 {
+  padding-top: 180px;
+}
+.top-200 {
+  padding-top: 200px;
+}
+
+
+
+.vertical-10 {
+  padding: 10px 0;
+}
+.vertical-15 {
+  padding: 15px 0;
+}
+.vertical-20 {
+  padding: 20px 0;
+}
+.vertical-30 {
+  padding: 30px 0;
+}
+.vertical-40 {
+  padding: 40px 0;
+}
+.vertical-40 {
+  padding: 40px 0;
+}
+.vertical-60 {
+  padding: 60px 0;
+}
+.vertical-80 {
+  padding: 80px 0;
+}
+.vertical-160 {
+  padding: 160px 0;
+}
+.vertical-150 {
+  padding: 150px 0;
+}
+.vertical-200 {
+  padding: 200px 0;
+}
+
+
+.padding-0 {
+  padding: 0px;
+}
+.padding-20 {
+  padding: 20px;
+}
+.padding-30 {
+  padding: 30px;
+}
+
+
+.rows-10 {
+  grid-row-gap: 10px;
+}
+.rows-15 {
+  grid-row-gap: 15px;
+}
+.rows-20 {
+  grid-row-gap: 20px;
+}
+.rows-30 {
+  grid-row-gap: 30px;
+}
+.rows-40 {
+  grid-row-gap: 40px;
+}
+.rows-40 {
+  grid-row-gap: 40px;
+}
+.rows-60 {
+  grid-row-gap: 60px;
+}
+.rows-80 {
+  grid-row-gap: 80px;
+}
+.rows-150 {
+  grid-row-gap: 150px;
+}
+.rows-160 {
+  grid-row-gap: 160px;
+}
+.rows-200 {
+  grid-row-gap: 200px;
+}

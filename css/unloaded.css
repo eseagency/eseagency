@@ -1,0 +1,130 @@
+/*-----------------------------------------------------------*/
+/* Textreveals                                               */
+/*-----------------------------------------------------------*/
+
+
+[cb-textreveal-element=text]:not(.cb-ts__active, .cb-ts__visible) {
+	opacity: 0;
+}
+
+
+.utl__h1 .cb-ts__item {
+	transform: translate(0, 100%)
+}
+
+.utl__h1 .cb-ts__item,
+.utl__h1.cb-ts__active .cb-ts__item {
+  transition-duration: 1s;
+  transition-delay: calc(0.05s * var(--index));
+}
+
+
+
+/*-----------------------------------------------------------*/
+/* Team Video                                                 */
+/*-----------------------------------------------------------*/
+
+
+.teamvid__section.transition {
+	opacity: 0;
+	transform: scaleY(1.2) translateY(200px);
+}
+
+
+
+/*-----------------------------------------------------------*/
+/* Transition                                                */
+/*-----------------------------------------------------------*/
+
+body.first-load .barba__main:not(.page-loaded) {
+	transform: translateY(100%);
+}
+body.first-load .barba__main:not(.page-loaded) .utl__scroller {
+	transform: scale(1);
+}
+
+.nav__link,
+.nav-logo {
+	transition-delay: calc(0.1s * var(--index));
+}
+
+body:not(.body-ready) .nav__link,
+body:not(.body-ready) .nav-logo {
+	transform: translateY(120%);
+}
+
+body:not(.body-ready) .nav * {
+	pointer-events: none;
+}
+
+body:not(.body-ready) .j-hero__img-container,
+body:not(.body-ready) .j-cms-hero__img {
+	opacity: 0;
+}
+
+
+/*-----------------------------------------------------------*/
+/* Agency V2                                                 */
+/*-----------------------------------------------------------*/
+
+
+
+.hh2-heading__h1-dummy:not(.cb-ts__visible),
+.hh2-heading__h3-wrapper:not(.cb-ts__visible) {
+	opacity: 0;
+}
+
+
+
+/*-----------------------------------------------------------*/
+/* Work                                                      */
+/*-----------------------------------------------------------*/
+
+
+.wrk-list__item,
+.tem__collection-item {
+	transform: translateY(50%) scale(1);
+	transition: all 0.5s cubic-bezier(0.53, 0.03, 0.83, 0.25);
+	opacity: 0;
+	transition-delay: calc(3s / var(--length) * var(--index));
+}
+.barba-back .wrk-list__item {
+	transition-delay: calc(1s / var(--length) * var(--index));
+}
+.wrk-flt__list .cb-ts-el__wrapper {
+  overflow: hidden;
+}
+.wrk-flt__list .cb-ts-el__item {
+	transform: translateY(100%);
+	transition-property: transform;
+	transition-delay: calc(0.4s + 0.05s * var(--index));
+	transition-timing-function: cubic-bezier(.23,1,.32,1);
+	transition-duration: 1s;
+}
+.barba__main:not(.page-loaded) .wrk-flt__list {
+	opacity: 0;
+}
+
+.barba__main:not(.page-loaded) .utl__line {
+	transform: scaleX(0);
+}
+
+
+
+/*-----------------------------------------------------------*/
+/* Team                                                      */
+/*-----------------------------------------------------------*/
+
+
+body:not(.first-load) .cms-ang__hero__img {
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
